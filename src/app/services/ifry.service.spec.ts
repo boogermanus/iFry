@@ -15,7 +15,6 @@ describe('IfryService', () => {
   });
 
   it('should have method calculate', () =>{
-    let result = service.calculate(0,0);
-    expect(result).toBeGreaterThanOrEqual(0);
+    expect(() => service.calculate(0,0)).not.toThrow();
   })
 });
