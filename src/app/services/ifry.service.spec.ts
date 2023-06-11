@@ -34,7 +34,7 @@ describe('IfryService', () => {
     expect(result.Temp).toEqual(0);
   });
 
-  it('should not calcuate a 0 value for time', () => {
+  it('should not calculate a 0 value for time', () => {
     let result = service.calculate(0, -10);
 
     expect(result.Time).toEqual(0);
