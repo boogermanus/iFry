@@ -6,6 +6,8 @@ import {MatCardModule} from "@angular/material/card";
 import { IfryComponent } from './components/ifry/ifry.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import {FormsModule} from "@angular/forms";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import {MatInputModule} from "@angular/material/input";
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
+    FormsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
