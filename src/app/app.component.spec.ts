@@ -1,12 +1,18 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {IfryComponent} from "./components/ifry/ifry.component";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {MatCardModule} from "@angular/material/card";
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        IfryComponent
       ],
+      imports: [MatFormFieldModule, MatInputModule, MatCardModule]
     }).compileComponents();
   });
 
