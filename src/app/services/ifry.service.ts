@@ -10,18 +10,16 @@ export class IfryService {
   constructor() { }
 
   public calculate(temp: number, timeInMinutes: number) : FryCalculation {
-    let tempResult = temp - this.TEMP_DECREASE;
-
-    if(tempResult < 0) {
-      tempResult = 0;
-    }
-
-    let timeResult = timeInMinutes - (timeInMinutes * this.TIME_DECREASE);
-
-    if(timeResult < 0) {
-      timeResult = 0;
-    }
+    let tempResult = this.checkValueForZero(temp - this.TEMP_DECREASE);
+    let timeResult = this.checkValueForZero(timeInMinutes - (timeInMinutes * this.TIME_DECREASE));
 
     return new FryCalculation(tempResult, timeResult);
+  }
+
+  private checkValueForZero(value: number): number {
+    if(value < 0)
+      return 0;
+    else
+      return value;
   }
 }
