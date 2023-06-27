@@ -7,6 +7,7 @@ import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 import {MatCardModule} from "@angular/material/card";
 import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 import {FormsModule} from "@angular/forms";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 
 describe('IfryComponent', () => {
@@ -16,7 +17,14 @@ describe('IfryComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ IfryComponent ],
-      imports: [MatFormFieldModule, MatInputModule, NoopAnimationsModule, MatCardModule, FormsModule],
+      imports: [
+        MatFormFieldModule,
+        MatInputModule,
+        NoopAnimationsModule,
+        MatCardModule,
+        FormsModule,
+        MatCheckboxModule
+      ],
     })
     .compileComponents();
 
@@ -28,4 +36,8 @@ describe('IfryComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have method onChecked', () => {
+    expect(component.onChecked).toBeTruthy();
+  })
 });

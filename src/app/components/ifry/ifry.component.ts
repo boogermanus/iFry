@@ -12,6 +12,7 @@ export class IfryComponent implements OnInit {
   public temp: number = 0;
   public time: number = 0;
   public calculation: FryCalculation = new FryCalculation(0,0);
+  public showAdvanced = false;
   constructor(private service: IfryService) { }
 
   ngOnInit(): void {
@@ -19,5 +20,9 @@ export class IfryComponent implements OnInit {
 
   public calculate(): void {
     this.calculation = this.service.calculate(this.temp, this.time);
+  }
+
+  public onChecked(checked: boolean): void {
+    this.showAdvanced = checked
   }
 }
