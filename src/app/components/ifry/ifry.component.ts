@@ -13,6 +13,8 @@ export class IfryComponent implements OnInit {
   public time: number = 0;
   public calculation: FryCalculation = new FryCalculation(0,0);
   public showAdvanced = false;
+  public advancedTemp: number = 0;
+  public advancedTime: number = 0;
   constructor(private service: IfryService) { }
 
   ngOnInit(): void {
