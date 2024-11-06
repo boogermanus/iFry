@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "iFry:build:production"
+              "buildTarget": "iFry:build:production"
             },
             "development": {
-              "browserTarget": "iFry:build:development"
+              "buildTarget": "iFry:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "iFry:build"
+            "buildTarget": "iFry:build"
           }
         },
         "test": {
