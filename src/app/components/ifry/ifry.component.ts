@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {FryCalculation} from "../../models/fry-calculation";
-import {IfryService} from "../../services/ifry.service";
+import { Component, OnInit } from '@angular/core';
+import { FryCalculation } from "../../models/fry-calculation";
+import { IfryService } from "../../services/ifry.service";
 
 @Component({
   selector: 'app-ifry',
@@ -11,7 +11,7 @@ export class IfryComponent implements OnInit {
 
   public temp: number = 0;
   public time: number = 0;
-  public calculation: FryCalculation = new FryCalculation(0,0);
+  public calculation: FryCalculation = new FryCalculation(0, 0);
   constructor(private service: IfryService) { }
 
   ngOnInit(): void {

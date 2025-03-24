@@ -8,6 +8,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 import { FormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
+import { provideRouter, RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,8 +23,13 @@ import { MatButtonModule } from "@angular/material/button";
     MatInputModule,
     FormsModule,
     MatButtonModule,
+    RouterModule
   ],
-  providers: [],
+  providers: [
+    provideRouter([
+      {path: '**', component: IfryComponent, pathMatch: 'full'}
+    ])
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {
