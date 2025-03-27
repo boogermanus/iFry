@@ -1,0 +1,38 @@
+[
+    {
+        "category": "Vegetables",
+        "ingredient": "Asparagus",
+        "amount": "1 bunch",
+        "preperation": "Whole, trimmed",
+        "oil": "2 tsp",
+        "temperature": "400",
+        "cookTime": "7-10 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Beets",
+        "amount": "4 medium",
+        "preperation": "Whole",
+        "oil": "None",
+        "temperature": "350",
+        "cookTime": "45-60 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Bell Peppers (to roast)",
+        "amount": "4 medium",
+        "preperation": "Whole",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Broccoli",
+        "amount": "1 head",
+        "preperation": "Cut in 1-inch florets",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    }
+]
