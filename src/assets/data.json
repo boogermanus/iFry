@@ -34,5 +34,113 @@
         "oil": "1 Tbsp",
         "temperature": "400",
         "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Brussels sprouts",
+        "amount": "16 oz",
+        "preperation": "Cut in half",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Butternut squash",
+        "amount": "1 small",
+        "preperation": "Peeled, cut in  10inch cubes",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Carrots",
+        "amount": "16 oz",
+        "preperation": "Peeled, cut into 1/2-inch pieces",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "13-16 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Cauliflower",
+        "amount": "1 head",
+        "preperation": "Cut in 1-inch florets",
+        "oil": "2 Tbsp",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Corn on the cob",
+        "amount": "4 ears",
+        "preperation": "Whole ears, husks removed",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Green beans",
+        "amount": "16 oz",
+        "preperation": "Tor in pieces, stems removed",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Mushrooms",
+        "amount": "16 oz",
+        "preperation": "Cut in half",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Potatoes, russet",
+        "amount": "16 oz",
+        "preperation": "Cut in 1-inch wedges",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "25-30 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Potatoes, russet",
+        "amount": "16 oz",
+        "preperation": "Hand-cut fries, thin",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Potatoes, russet",
+        "amount": "16 oz",
+        "preperation": "Hand-cut fries, thick",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "25-30 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Potatoes, russet",
+        "amount": "4 whole (medium)",
+        "preperation": "Pierced with fork",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "35-45 Minutes"
+    },
+    {
+        "category": "Vegetables",
+        "ingredient": "Zucchini",
+        "amount": "2 medium",
+        "preperation": "Cut in half lengthwise, then cut in 1-inch thick slices",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "15-18 Minutes"
     }
 ]
