@@ -196,5 +196,113 @@
         "oil": "Brushed with oil",
         "temperature": "400",
         "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Crab cakes",
+        "amount": "2 cakes (6 oz each)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "375",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Lobster tails",
+        "amount": "4 tails (4 oz each)",
+        "preperation": "Whole",
+        "oil": "None",
+        "temperature": "375",
+        "cookTime": "5-8 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Salmon fillets",
+        "amount": "2 fillets (6 oz each, 1-inch thick)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "White fish fillets",
+        "amount": "2 fillets (6 oz each)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Sword fish",
+        "amount": "2 steaks (6 oz each, 1-inch thick)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Tuna",
+        "amount": "2 steaks (6 oz each, 1-inch thick)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Fish & Seafood",
+        "ingredient": "Shrimp",
+        "amount": "16 oz",
+        "preperation": "Whole, peeled",
+        "oil": "1 Tbsp",
+        "temperature": "375",
+        "cookTime": "7-10 Minutes"
+    },
+    {
+        "category": "Beef",
+        "ingredient": "Burgers",
+        "amount": "4 (4 oz each)",
+        "preperation": "1-inch thick",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Beef",
+        "ingredient": "Meatballs",
+        "amount": "12 (2-inches thick)",
+        "preperation": "2-inches thick",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-15 Minutes"
+    },
+    {
+        "category": "Beef",
+        "ingredient": "Steak",
+        "amount": "2 steaks (8 oz, 1-inch thick)",
+        "preperation": "Bone-in",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Beef",
+        "ingredient": "Steak",
+        "amount": "2 steaks (8 oz, 1-inch thick)",
+        "preperation": "Bone-in",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Beef",
+        "ingredient": "Steak",
+        "amount": "2 steaks (8 oz, 1-inch thick)",
+        "preperation": "Boneless",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-15 Minutes"
     }
 ]
