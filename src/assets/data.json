@@ -304,5 +304,68 @@
         "oil": "None",
         "temperature": "400",
         "cookTime": "10-15 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Bacon",
+        "amount": "6 strips",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "375",
+        "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Lamb chops",
+        "amount": "2 thick-cut, sirloin chops (6 oz each)",
+        "preperation": "Bone-in",
+        "oil": "Brushed with oil",
+        "temperature": "375",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Lamb chops",
+        "amount": "4 rib chops (4 oz each)",
+        "preperation": "Boneless",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Pork chops",
+        "amount": "2 thick-cut, bone-in chops (8 oz each)",
+        "preperation": "Bone-in",
+        "oil": "Brushed with oil",
+        "temperature": "375",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Prok chops",
+        "amount": "4 bonless chops (8 oz each)",
+        "preperation": "Boneless",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Pork tenderloin",
+        "amount": "1 tenderloin (16 oz)",
+        "preperation": "Cut in half",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Pork & Lamb",
+        "ingredient": "Sausages",
+        "amount": "4 sausages",
+        "preperation": "Whole",
+        "oil": "None",
+        "temperature": "375",
+        "cookTime": "8-10 Minutes"
     }
 ]
