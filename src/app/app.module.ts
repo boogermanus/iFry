@@ -27,7 +27,7 @@ import { provideRouter, RouterModule } from '@angular/router';
   ],
   providers: [
     provideRouter([
-      {path: '**', component: IfryComponent, pathMatch: 'full'}
+      { path: '**', component: IfryComponent, pathMatch: 'full' }
     ])
   ],
   bootstrap: [AppComponent],
