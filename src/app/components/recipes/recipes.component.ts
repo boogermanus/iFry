@@ -5,6 +5,8 @@ import { DataService } from 'src/app/services/data.service';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { CookingPipe } from 'src/app/pipes/cooking.pipe';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-recipes',
@@ -13,7 +15,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatCardModule,
     MatExpansionModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    CookingPipe,
+    FormsModule
   ],
   templateUrl: './recipes.component.html',
   styleUrl: './recipes.component.css'
@@ -21,6 +25,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 export class RecipesComponent implements OnInit {
 
   public data: ICooking[] = [];
+  public filter: string = '';
   constructor(private readonly dataService: DataService) { }
 
   public ngOnInit(): void {

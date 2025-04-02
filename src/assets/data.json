@@ -319,16 +319,6 @@
         "cookTime": "15-20 Minutes"
     },
     {
-        "id": 33,
-        "category": "Beef",
-        "ingredient": "Steak",
-        "amount": "2 steaks (8 oz, 1-inch thick)",
-        "preparation": "Bone-in",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
         "id": 34,
         "category": "Beef",
         "ingredient": "Steak",

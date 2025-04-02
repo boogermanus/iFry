@@ -9,17 +9,29 @@
                     <div class="col-md-8">
                         <mat-form-field style="width: 75%">
                             <mat-label>Filter</mat-label>
-                            <input matInput type="text"/>
+                            <input matInput type="text" [(ngModel)]="filter"/>
                         </mat-form-field>
                     </div>
                 </div>
                 <mat-accordion>
-                    @for(item of data; track item.id) {
+                    @for(item of data | cooking:filter; track item.id) {
                     <mat-expansion-panel>
                         <mat-expansion-panel-header>
                             <mat-panel-title>{{item.ingredient}}</mat-panel-title>
                             <mat-panel-description>{{item.preparation !== 'None' ? item.preparation : ''}}</mat-panel-description>
                         </mat-expansion-panel-header>
+                        <div class="row">
+                            <div class="col-md-6">Amount: {{item.amount}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">Oil: {{item.oil}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">Temp: {{item.temperature}}&deg;F</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">Cook Time: {{item.cookTime}}</div>
+                        </div>
                     </mat-expansion-panel>
                     }
                 </mat-accordion>

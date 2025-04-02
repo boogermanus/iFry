@@ -5,6 +5,6 @@ export interface ICooking {
     amount: string;
     preparation: string;
     oil: string;
-    tempteure: number; // in F
+    temperature: number; // in F
     cookTime: string;
 }
