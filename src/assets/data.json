@@ -367,5 +367,131 @@
         "oil": "None",
         "temperature": "375",
         "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Chicken tenders",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Chicken nuggets",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Fish fillets",
+        "amount": "4 (6 oz each, unbreaded)",
+        "preperation": "None",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "12-18 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Fish sticks",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "French fries",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Egg rolls",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "15-18 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Mozzarella sticks",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "8-10 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Dumplings",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "375",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Pizza",
+        "amount": "Personal size",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Pizza rolls",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Shrimp",
+        "amount": "16 oz (breaded)",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "12-15 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Tater tots",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "15-18 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Onion rings",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "None",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
+    },
+    {
+        "category": "Frozen Foods",
+        "ingredient": "Frozen vegetables",
+        "amount": "16 oz",
+        "preperation": "None",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "10-15 Minutes"
     }
 ]
