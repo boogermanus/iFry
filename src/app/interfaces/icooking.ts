@@ -1,4 +1,5 @@
 export interface ICooking {
+    id: number;
     category: string;
     ingredient: string;
     amount: string;

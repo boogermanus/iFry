@@ -10,6 +10,7 @@ import { FormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
 import { provideRouter, RouterModule } from '@angular/router';
 import { RecipesComponent } from './components/recipes/recipes.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RecipesComponent } from './components/recipes/recipes.component';
     provideRouter([
       { path: 'recipes', component: RecipesComponent },
       { path: '**', component: IfryComponent, pathMatch: 'full' }
-    ])
+    ]),
+    provideHttpClient()
   ],
   bootstrap: [AppComponent],
 })

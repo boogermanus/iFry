@@ -1,12 +1,32 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
+import { ICooking } from 'src/app/interfaces/icooking';
+import { DataService } from 'src/app/services/data.service';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-recipes',
   standalone: true,
-  imports: [],
+  imports: [
+    MatCardModule,
+    MatExpansionModule,
+    MatInputModule,
+    MatFormFieldModule
+  ],
   templateUrl: './recipes.component.html',
   styleUrl: './recipes.component.css'
 })
-export class RecipesComponent {
+export class RecipesComponent implements OnInit {
 
+  public data: ICooking[] = [];
+  constructor(private readonly dataService: DataService) { }
+
+  public ngOnInit(): void {
+    this.dataService.getData()
+      .subscribe({
+        next: (data) => this.data = data
+      });
+  }
 }
