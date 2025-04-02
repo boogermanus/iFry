@@ -142,5 +142,59 @@
         "oil": "1 Tbsp",
         "temperature": "400",
         "cookTime": "15-18 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Chicken breasts",
+        "amount": "2 breasts (12 oz each)",
+        "preperation": "Bone-in",
+        "oil": "Brushed with oil",
+        "temperature": "375",
+        "cookTime": "20-30 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Chicken breasts",
+        "amount": "2 breasts (8 oz each)",
+        "preperation": "Boneless",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "15-20 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Chicken thighs",
+        "amount": "4 thighs (6 oz each)",
+        "preperation": "Bone-in",
+        "oil": "Brushed with oil",
+        "temperature": "375",
+        "cookTime": "25-35 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Chicken thighs",
+        "amount": "4 thighs (10 oz each)",
+        "preperation": "Boneless",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "18-25 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Chickent wings",
+        "amount": "16 oz",
+        "preperation": "Drumettes & flats",
+        "oil": "1 Tbsp",
+        "temperature": "400",
+        "cookTime": "20-25 Minutes"
+    },
+    {
+        "category": "Poultry",
+        "ingredient": "Trukey breast",
+        "amount": "4 cutlets (6 oz each)",
+        "preperation": "Boneless",
+        "oil": "Brushed with oil",
+        "temperature": "400",
+        "cookTime": "10-12 Minutes"
     }
 ]
