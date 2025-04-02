@@ -9,6 +9,7 @@ import { MatInputModule } from "@angular/material/input";
 import { FormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
 import { provideRouter, RouterModule } from '@angular/router';
+import { RecipesComponent } from './components/recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { provideRouter, RouterModule } from '@angular/router';
   ],
   providers: [
     provideRouter([
+      { path: 'recipes', component: RecipesComponent },
       { path: '**', component: IfryComponent, pathMatch: 'full' }
     ])
   ],
