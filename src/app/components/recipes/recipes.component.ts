@@ -31,7 +31,7 @@ export class RecipesComponent implements OnInit {
   public ngOnInit(): void {
     this.dataService.getData()
       .subscribe({
-        next: (data) => this.data = data
+        next: (data) => this.data = data.sort((a, b) => a.ingredient.localeCompare(b.ingredient))
       });
   }
 }
