@@ -3,9 +3,10 @@ import { FryCalculation } from "../../models/fry-calculation";
 import { IfryService } from "../../services/ifry.service";
 
 @Component({
-  selector: 'app-ifry',
-  templateUrl: './ifry.component.html',
-  styleUrls: ['./ifry.component.css'],
+    selector: 'app-ifry',
+    templateUrl: './ifry.component.html',
+    styleUrls: ['./ifry.component.css'],
+    standalone: false
 })
 export class IfryComponent implements OnInit {
 
