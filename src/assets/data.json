@@ -548,5 +548,15 @@
     "oil": "1 Tbsp",
     "temperature": "380",
     "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 57,
+    "category": "Vegetables",
+    "ingredient": "Peppers",
+    "amount": "8-10 peppers",
+    "preparation": "Allow to steam after cooking",
+    "oil": "None",
+    "temperature": "390",
+    "cookTime": "10-12 Minutes"
   }
 ]
