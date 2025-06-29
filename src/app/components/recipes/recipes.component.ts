@@ -9,18 +9,17 @@ import { CookingPipe } from 'src/app/pipes/cooking.pipe';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-recipes',
-  standalone: true,
-  imports: [
-    MatCardModule,
-    MatExpansionModule,
-    MatInputModule,
-    MatFormFieldModule,
-    CookingPipe,
-    FormsModule
-  ],
-  templateUrl: './recipes.component.html',
-  styleUrl: './recipes.component.css'
+    selector: 'app-recipes',
+    imports: [
+        MatCardModule,
+        MatExpansionModule,
+        MatInputModule,
+        MatFormFieldModule,
+        CookingPipe,
+        FormsModule
+    ],
+    templateUrl: './recipes.component.html',
+    styleUrl: './recipes.component.css'
 })
 export class RecipesComponent implements OnInit {
 
