@@ -1,541 +1,552 @@
 [
-    {
-        "id": 1,
-        "category": "Vegetables",
-        "ingredient": "Asparagus",
-        "amount": "1 bunch",
-        "preparation": "Whole, trimmed",
-        "oil": "2 tsp",
-        "temperature": "400",
-        "cookTime": "7-10 Minutes"
-    },
-    {
-        "id": 2,
-        "category": "Vegetables",
-        "ingredient": "Beets",
-        "amount": "4 medium",
-        "preparation": "Whole",
-        "oil": "None",
-        "temperature": "350",
-        "cookTime": "45-60 Minutes"
-    },
-    {
-        "id": 3,
-        "category": "Vegetables",
-        "ingredient": "Bell Peppers (to roast)",
-        "amount": "4 medium",
-        "preparation": "Whole",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 4,
-        "category": "Vegetables",
-        "ingredient": "Broccoli",
-        "amount": "1 head",
-        "preparation": "Cut in 1-inch florets",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 5,
-        "category": "Vegetables",
-        "ingredient": "Brussels sprouts",
-        "amount": "16 oz",
-        "preparation": "Cut in half",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 6,
-        "category": "Vegetables",
-        "ingredient": "Butternut squash",
-        "amount": "1 small",
-        "preparation": "Peeled, cut in  10inch cubes",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 7,
-        "category": "Vegetables",
-        "ingredient": "Carrots",
-        "amount": "16 oz",
-        "preparation": "Peeled, cut into 1/2-inch pieces",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "13-16 Minutes"
-    },
-    {
-        "id": 8,
-        "category": "Vegetables",
-        "ingredient": "Cauliflower",
-        "amount": "1 head",
-        "preparation": "Cut in 1-inch florets",
-        "oil": "2 Tbsp",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 9,
-        "category": "Vegetables",
-        "ingredient": "Corn on the cob",
-        "amount": "4 ears",
-        "preparation": "Whole ears, husks removed",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 10,
-        "category": "Vegetables",
-        "ingredient": "Green beans",
-        "amount": "16 oz",
-        "preparation": "Torn in pieces, stems removed",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 11,
-        "category": "Vegetables",
-        "ingredient": "Mushrooms",
-        "amount": "16 oz",
-        "preparation": "Cut in half",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 12,
-        "category": "Vegetables",
-        "ingredient": "Potatoes, russet",
-        "amount": "16 oz",
-        "preparation": "Cut in 1-inch wedges",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "25-30 Minutes"
-    },
-    {
-        "id": 13,
-        "category": "Vegetables",
-        "ingredient": "Potatoes, russet",
-        "amount": "16 oz",
-        "preparation": "Hand-cut fries, thin",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 14,
-        "category": "Vegetables",
-        "ingredient": "Potatoes, russet",
-        "amount": "16 oz",
-        "preparation": "Hand-cut fries, thick",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "25-30 Minutes"
-    },
-    {
-        "id": 15,
-        "category": "Vegetables",
-        "ingredient": "Potatoes, russet",
-        "amount": "4 whole (medium)",
-        "preparation": "Pierced with fork",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "35-45 Minutes"
-    },
-    {
-        "id": 16,
-        "category": "Vegetables",
-        "ingredient": "Zucchini",
-        "amount": "2 medium",
-        "preparation": "Cut in half lengthwise, then cut in 1-inch thick slices",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "15-18 Minutes"
-    },
-    {
-        "id": 17,
-        "category": "Poultry",
-        "ingredient": "Chicken breasts",
-        "amount": "2 breasts (12 oz each)",
-        "preparation": "Bone-in",
-        "oil": "Brushed with oil",
-        "temperature": "375",
-        "cookTime": "20-30 Minutes"
-    },
-    {
-        "id": 18,
-        "category": "Poultry",
-        "ingredient": "Chicken breasts",
-        "amount": "2 breasts (8 oz each)",
-        "preparation": "Boneless",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 19,
-        "category": "Poultry",
-        "ingredient": "Chicken thighs",
-        "amount": "4 thighs (6 oz each)",
-        "preparation": "Bone-in",
-        "oil": "Brushed with oil",
-        "temperature": "375",
-        "cookTime": "25-35 Minutes"
-    },
-    {
-        "id": 20,
-        "category": "Poultry",
-        "ingredient": "Chicken thighs",
-        "amount": "4 thighs (10 oz each)",
-        "preparation": "Boneless",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "18-25 Minutes"
-    },
-    {
-        "id": 21,
-        "category": "Poultry",
-        "ingredient": "Chickent wings",
-        "amount": "16 oz",
-        "preparation": "Drumettes & flats",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 22,
-        "category": "Poultry",
-        "ingredient": "Trukey breast",
-        "amount": "4 cutlets (6 oz each)",
-        "preparation": "Boneless",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {        "id": 23,
-        "category": "Fish & Seafood",
-        "ingredient": "Crab cakes",
-        "amount": "2 cakes (6 oz each)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "375",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 24,
-        "category": "Fish & Seafood",
-        "ingredient": "Lobster tails",
-        "amount": "4 tails (4 oz each)",
-        "preparation": "Whole",
-        "oil": "None",
-        "temperature": "375",
-        "cookTime": "5-8 Minutes"
-    },
-    {
-        "id": 25,
-        "category": "Fish & Seafood",
-        "ingredient": "Salmon fillets",
-        "amount": "2 fillets (6 oz each, 1-inch thick)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 26,
-        "category": "Fish & Seafood",
-        "ingredient": "White fish fillets",
-        "amount": "2 fillets (6 oz each)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 27,
-        "category": "Fish & Seafood",
-        "ingredient": "Sword fish",
-        "amount": "2 steaks (6 oz each, 1-inch thick)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 28,
-        "category": "Fish & Seafood",
-        "ingredient": "Tuna",
-        "amount": "2 steaks (6 oz each, 1-inch thick)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 29,
-        "category": "Fish & Seafood",
-        "ingredient": "Shrimp",
-        "amount": "16 oz",
-        "preparation": "Whole, peeled",
-        "oil": "1 Tbsp",
-        "temperature": "375",
-        "cookTime": "7-10 Minutes"
-    },
-    {
-        "id": 30,
-        "category": "Beef",
-        "ingredient": "Burgers",
-        "amount": "4 (4 oz each)",
-        "preparation": "1-inch thick",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 31,
-        "category": "Beef",
-        "ingredient": "Meatballs",
-        "amount": "12 (2-inches thick)",
-        "preparation": "2-inches thick",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-15 Minutes"
-    },
-    {
-        "id": 32,
-        "category": "Beef",
-        "ingredient": "Steak",
-        "amount": "2 steaks (8 oz, 1-inch thick)",
-        "preparation": "Bone-in",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 34,
-        "category": "Beef",
-        "ingredient": "Steak",
-        "amount": "2 steaks (8 oz, 1-inch thick)",
-        "preparation": "Boneless",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-15 Minutes"
-    },
-    {
-        "id": 35,
-        "category": "Pork & Lamb",
-        "ingredient": "Bacon",
-        "amount": "6 strips",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "375",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 36,
-        "category": "Pork & Lamb",
-        "ingredient": "Lamb chops",
-        "amount": "2 thick-cut, sirloin chops (6 oz each)",
-        "preparation": "Bone-in",
-        "oil": "Brushed with oil",
-        "temperature": "375",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 37,
-        "category": "Pork & Lamb",
-        "ingredient": "Lamb chops",
-        "amount": "4 rib chops (4 oz each)",
-        "preparation": "Boneless",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 38,
-        "category": "Pork & Lamb",
-        "ingredient": "Pork chops",
-        "amount": "2 thick-cut, bone-in chops (8 oz each)",
-        "preparation": "Bone-in",
-        "oil": "Brushed with oil",
-        "temperature": "375",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 39,
-        "category": "Pork & Lamb",
-        "ingredient": "Prok chops",
-        "amount": "4 bonless chops (8 oz each)",
-        "preparation": "Boneless",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 40,
-        "category": "Pork & Lamb",
-        "ingredient": "Pork tenderloin",
-        "amount": "1 tenderloin (16 oz)",
-        "preparation": "Cut in half",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 41,
-        "category": "Pork & Lamb",
-        "ingredient": "Sausages",
-        "amount": "4 sausages",
-        "preparation": "Whole",
-        "oil": "None",
-        "temperature": "375",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 42,
-        "category": "Frozen Foods",
-        "ingredient": "Chicken tenders",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "15-20 Minutes"
-    },
-    {
-        "id": 43,
-        "category": "Frozen Foods",
-        "ingredient": "Chicken nuggets",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 44,
-        "category": "Frozen Foods",
-        "ingredient": "Fish fillets",
-        "amount": "4 (6 oz each, unbreaded)",
-        "preparation": "None",
-        "oil": "Brushed with oil",
-        "temperature": "400",
-        "cookTime": "12-18 Minutes"
-    },
-    {
-        "id": 45,
-        "category": "Frozen Foods",
-        "ingredient": "Fish sticks",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 46,
-        "category": "Frozen Foods",
-        "ingredient": "French fries",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "20-25 Minutes"
-    },
-    {
-        "id": 47,
-        "category": "Frozen Foods",
-        "ingredient": "Egg rolls",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "15-18 Minutes"
-    },
-    {
-        "id": 48,
-        "category": "Frozen Foods",
-        "ingredient": "Mozzarella sticks",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "8-10 Minutes"
-    },
-    {
-        "id": 49,
-        "category": "Frozen Foods",
-        "ingredient": "Dumplings",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "375",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 50,
-        "category": "Frozen Foods",
-        "ingredient": "Pizza",
-        "amount": "Personal size",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 51,
-        "category": "Frozen Foods",
-        "ingredient": "Pizza rolls",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 52,
-        "category": "Frozen Foods",
-        "ingredient": "Shrimp",
-        "amount": "16 oz (breaded)",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "12-15 Minutes"
-    },
-    {
-        "id": 53,
-        "category": "Frozen Foods",
-        "ingredient": "Tater tots",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "15-18 Minutes"
-    },
-    {
-        "id": 54,
-        "category": "Frozen Foods",
-        "ingredient": "Onion rings",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "None",
-        "temperature": "400",
-        "cookTime": "10-12 Minutes"
-    },
-    {
-        "id": 55,
-        "category": "Frozen Foods",
-        "ingredient": "Frozen vegetables",
-        "amount": "16 oz",
-        "preparation": "None",
-        "oil": "1 Tbsp",
-        "temperature": "400",
-        "cookTime": "10-15 Minutes"
-    }
+  {
+    "id": 1,
+    "category": "Vegetables",
+    "ingredient": "Asparagus",
+    "amount": "1 bunch",
+    "preparation": "Whole, trimmed",
+    "oil": "2 tsp",
+    "temperature": "400",
+    "cookTime": "7-10 Minutes"
+  },
+  {
+    "id": 2,
+    "category": "Vegetables",
+    "ingredient": "Beets",
+    "amount": "4 medium",
+    "preparation": "Whole",
+    "oil": "None",
+    "temperature": "350",
+    "cookTime": "45-60 Minutes"
+  },
+  {
+    "id": 3,
+    "category": "Vegetables",
+    "ingredient": "Bell Peppers (to roast)",
+    "amount": "4 medium",
+    "preparation": "Whole",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 4,
+    "category": "Vegetables",
+    "ingredient": "Broccoli",
+    "amount": "1 head",
+    "preparation": "Cut in 1-inch florets",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 5,
+    "category": "Vegetables",
+    "ingredient": "Brussels sprouts",
+    "amount": "16 oz",
+    "preparation": "Cut in half",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 6,
+    "category": "Vegetables",
+    "ingredient": "Butternut squash",
+    "amount": "1 small",
+    "preparation": "Peeled, cut in  10inch cubes",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 7,
+    "category": "Vegetables",
+    "ingredient": "Carrots",
+    "amount": "16 oz",
+    "preparation": "Peeled, cut into 1/2-inch pieces",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "13-16 Minutes"
+  },
+  {
+    "id": 8,
+    "category": "Vegetables",
+    "ingredient": "Cauliflower",
+    "amount": "1 head",
+    "preparation": "Cut in 1-inch florets",
+    "oil": "2 Tbsp",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 9,
+    "category": "Vegetables",
+    "ingredient": "Corn on the cob",
+    "amount": "4 ears",
+    "preparation": "Whole ears, husks removed",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 10,
+    "category": "Vegetables",
+    "ingredient": "Green beans",
+    "amount": "16 oz",
+    "preparation": "Torn in pieces, stems removed",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 11,
+    "category": "Vegetables",
+    "ingredient": "Mushrooms",
+    "amount": "16 oz",
+    "preparation": "Cut in half",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 12,
+    "category": "Vegetables",
+    "ingredient": "Potatoes, russet",
+    "amount": "16 oz",
+    "preparation": "Cut in 1-inch wedges",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "25-30 Minutes"
+  },
+  {
+    "id": 13,
+    "category": "Vegetables",
+    "ingredient": "Potatoes, russet",
+    "amount": "16 oz",
+    "preparation": "Hand-cut fries, thin",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 14,
+    "category": "Vegetables",
+    "ingredient": "Potatoes, russet",
+    "amount": "16 oz",
+    "preparation": "Hand-cut fries, thick",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "25-30 Minutes"
+  },
+  {
+    "id": 15,
+    "category": "Vegetables",
+    "ingredient": "Potatoes, russet",
+    "amount": "4 whole (medium)",
+    "preparation": "Pierced with fork",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "35-45 Minutes"
+  },
+  {
+    "id": 16,
+    "category": "Vegetables",
+    "ingredient": "Zucchini",
+    "amount": "2 medium",
+    "preparation": "Cut in half lengthwise, then cut in 1-inch thick slices",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "15-18 Minutes"
+  },
+  {
+    "id": 17,
+    "category": "Poultry",
+    "ingredient": "Chicken breasts",
+    "amount": "2 breasts (12 oz each)",
+    "preparation": "Bone-in",
+    "oil": "Brushed with oil",
+    "temperature": "375",
+    "cookTime": "20-30 Minutes"
+  },
+  {
+    "id": 18,
+    "category": "Poultry",
+    "ingredient": "Chicken breasts",
+    "amount": "2 breasts (8 oz each)",
+    "preparation": "Boneless",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 19,
+    "category": "Poultry",
+    "ingredient": "Chicken thighs",
+    "amount": "4 thighs (6 oz each)",
+    "preparation": "Bone-in",
+    "oil": "Brushed with oil",
+    "temperature": "375",
+    "cookTime": "25-35 Minutes"
+  },
+  {
+    "id": 20,
+    "category": "Poultry",
+    "ingredient": "Chicken thighs",
+    "amount": "4 thighs (10 oz each)",
+    "preparation": "Boneless",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "18-25 Minutes"
+  },
+  {
+    "id": 21,
+    "category": "Poultry",
+    "ingredient": "Chickent wings",
+    "amount": "16 oz",
+    "preparation": "Drumettes & flats",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 22,
+    "category": "Poultry",
+    "ingredient": "Trukey breast",
+    "amount": "4 cutlets (6 oz each)",
+    "preparation": "Boneless",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 23,
+    "category": "Fish & Seafood",
+    "ingredient": "Crab cakes",
+    "amount": "2 cakes (6 oz each)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "375",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 24,
+    "category": "Fish & Seafood",
+    "ingredient": "Lobster tails",
+    "amount": "4 tails (4 oz each)",
+    "preparation": "Whole",
+    "oil": "None",
+    "temperature": "375",
+    "cookTime": "5-8 Minutes"
+  },
+  {
+    "id": 25,
+    "category": "Fish & Seafood",
+    "ingredient": "Salmon fillets",
+    "amount": "2 fillets (6 oz each, 1-inch thick)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 26,
+    "category": "Fish & Seafood",
+    "ingredient": "White fish fillets",
+    "amount": "2 fillets (6 oz each)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 27,
+    "category": "Fish & Seafood",
+    "ingredient": "Sword fish",
+    "amount": "2 steaks (6 oz each, 1-inch thick)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 28,
+    "category": "Fish & Seafood",
+    "ingredient": "Tuna",
+    "amount": "2 steaks (6 oz each, 1-inch thick)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 29,
+    "category": "Fish & Seafood",
+    "ingredient": "Shrimp",
+    "amount": "16 oz",
+    "preparation": "Whole, peeled",
+    "oil": "1 Tbsp",
+    "temperature": "375",
+    "cookTime": "7-10 Minutes"
+  },
+  {
+    "id": 30,
+    "category": "Beef",
+    "ingredient": "Burgers",
+    "amount": "4 (4 oz each)",
+    "preparation": "1-inch thick",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 31,
+    "category": "Beef",
+    "ingredient": "Meatballs",
+    "amount": "12 (2-inches thick)",
+    "preparation": "2-inches thick",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-15 Minutes"
+  },
+  {
+    "id": 32,
+    "category": "Beef",
+    "ingredient": "Steak",
+    "amount": "2 steaks (8 oz, 1-inch thick)",
+    "preparation": "Bone-in",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 34,
+    "category": "Beef",
+    "ingredient": "Steak",
+    "amount": "2 steaks (8 oz, 1-inch thick)",
+    "preparation": "Boneless",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-15 Minutes"
+  },
+  {
+    "id": 35,
+    "category": "Pork & Lamb",
+    "ingredient": "Bacon",
+    "amount": "6 strips",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "375",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 36,
+    "category": "Pork & Lamb",
+    "ingredient": "Lamb chops",
+    "amount": "2 thick-cut, sirloin chops (6 oz each)",
+    "preparation": "Bone-in",
+    "oil": "Brushed with oil",
+    "temperature": "375",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 37,
+    "category": "Pork & Lamb",
+    "ingredient": "Lamb chops",
+    "amount": "4 rib chops (4 oz each)",
+    "preparation": "Boneless",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 38,
+    "category": "Pork & Lamb",
+    "ingredient": "Pork chops",
+    "amount": "2 thick-cut, bone-in chops (8 oz each)",
+    "preparation": "Bone-in",
+    "oil": "Brushed with oil",
+    "temperature": "375",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 39,
+    "category": "Pork & Lamb",
+    "ingredient": "Prok chops",
+    "amount": "4 bonless chops (8 oz each)",
+    "preparation": "Boneless",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 40,
+    "category": "Pork & Lamb",
+    "ingredient": "Pork tenderloin",
+    "amount": "1 tenderloin (16 oz)",
+    "preparation": "Cut in half",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 41,
+    "category": "Pork & Lamb",
+    "ingredient": "Sausages",
+    "amount": "4 sausages",
+    "preparation": "Whole",
+    "oil": "None",
+    "temperature": "375",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 42,
+    "category": "Frozen Foods",
+    "ingredient": "Chicken tenders",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "15-20 Minutes"
+  },
+  {
+    "id": 43,
+    "category": "Frozen Foods",
+    "ingredient": "Chicken nuggets",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 44,
+    "category": "Frozen Foods",
+    "ingredient": "Fish fillets",
+    "amount": "4 (6 oz each, unbreaded)",
+    "preparation": "None",
+    "oil": "Brushed with oil",
+    "temperature": "400",
+    "cookTime": "12-18 Minutes"
+  },
+  {
+    "id": 45,
+    "category": "Frozen Foods",
+    "ingredient": "Fish sticks",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 46,
+    "category": "Frozen Foods",
+    "ingredient": "French fries",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "20-25 Minutes"
+  },
+  {
+    "id": 47,
+    "category": "Frozen Foods",
+    "ingredient": "Egg rolls",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "15-18 Minutes"
+  },
+  {
+    "id": 48,
+    "category": "Frozen Foods",
+    "ingredient": "Mozzarella sticks",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "8-10 Minutes"
+  },
+  {
+    "id": 49,
+    "category": "Frozen Foods",
+    "ingredient": "Dumplings",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "375",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 50,
+    "category": "Frozen Foods",
+    "ingredient": "Pizza",
+    "amount": "Personal size",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 51,
+    "category": "Frozen Foods",
+    "ingredient": "Pizza rolls",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 52,
+    "category": "Frozen Foods",
+    "ingredient": "Shrimp",
+    "amount": "16 oz (breaded)",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "12-15 Minutes"
+  },
+  {
+    "id": 53,
+    "category": "Frozen Foods",
+    "ingredient": "Tater tots",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "15-18 Minutes"
+  },
+  {
+    "id": 54,
+    "category": "Frozen Foods",
+    "ingredient": "Onion rings",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 55,
+    "category": "Frozen Foods",
+    "ingredient": "Frozen vegetables",
+    "amount": "16 oz",
+    "preparation": "None",
+    "oil": "1 Tbsp",
+    "temperature": "400",
+    "cookTime": "10-15 Minutes"
+  },
+  {
+    "id": 56,
+    "category": "Frozen Foods",
+    "ingredient": "Potstickers",
+    "amount": "8-10 potstickers",
+    "preparation": "None",
+    "oil": "1 Tbsp",
+    "temperature": "380",
+    "cookTime": "8-10 Minutes"
+  }
 ]
