@@ -4,6 +4,7 @@ import { IfryComponent } from "./components/ifry/ifry.component";
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
+import { RouterModule } from '@angular/router';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -12,7 +13,7 @@ describe('AppComponent', () => {
         AppComponent,
         IfryComponent
       ],
-      imports: [MatFormFieldModule, MatInputModule, MatCardModule]
+      imports: [MatFormFieldModule, MatInputModule, MatCardModule, RouterModule]
     }).compileComponents();
   });
 

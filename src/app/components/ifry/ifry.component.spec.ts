@@ -6,6 +6,7 @@ import {FormsModule} from "@angular/forms";
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
+import {provideRouter, RouterModule} from '@angular/router';
 
 
 describe('IfryComponent', () => {
@@ -15,7 +16,15 @@ describe('IfryComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ IfryComponent ],
-      imports: [MatFormFieldModule, MatInputModule, NoopAnimationsModule, MatCardModule, FormsModule],
+      imports: [
+        MatFormFieldModule,
+        MatInputModule,
+        NoopAnimationsModule,
+        MatCardModule,
+        FormsModule,
+        RouterModule
+      ],
+      providers: [provideRouter([])]
     })
     .compileComponents();
 
