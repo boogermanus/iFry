@@ -15,7 +15,19 @@ export const IFryInitialState: IFryType = {
 export const IFryStore = signalStore(
   withState<IFryType>(IFryInitialState),
   withMethods((store, service = inject(IfryService)) => ({
-    update(temp: number, time: number): void {
+    updateTemp(temp: number): void {
+      if(temp > 0) {
+        patchState(store, {temp: temp});
+      }
+      this.calculate(store.temp(), store.time());
+    },
+    updateTime(time: number): void {
+      if(time > 0) {
+        patchState(store, {time: time});
+      }
+      this.calculate(store.temp(), store.time());
+    },
+    calculate(temp: number, time: number): void {
       let result = service.calculate(temp, time);
 
       if(result.Temp > 0 && result.Time > 0) {
