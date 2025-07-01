@@ -11,6 +11,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { provideRouter, RouterModule } from '@angular/router';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { provideHttpClient } from '@angular/common/http';
+import {IFryStore} from "./stores/IfryStore";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { provideHttpClient } from '@angular/common/http';
       { path: 'recipes', component: RecipesComponent },
       { path: '**', component: IfryComponent, pathMatch: 'full' }
     ]),
-    provideHttpClient()
+    provideHttpClient(),
+    IFryStore,
   ],
   bootstrap: [AppComponent],
 })

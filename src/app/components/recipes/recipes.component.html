@@ -1,41 +1,41 @@
 <div class="row justify-content-center mt-2">
-    <div class="col-md-6">
-        <mat-card class="ifry-card mat-mdc-elevation-specific mat-elevation-z10" appearance="outlined">
-            <mat-card-header>
-                <mat-card-title>Recipes</mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <div class="row">
-                    <div class="col-md-8">
-                        <mat-form-field style="width: 75%">
-                            <mat-label>Filter</mat-label>
-                            <input matInput type="text" [(ngModel)]="filter"/>
-                        </mat-form-field>
-                    </div>
-                </div>
-                <mat-accordion>
-                    @for(item of data | cooking:filter; track item.id) {
-                    <mat-expansion-panel>
-                        <mat-expansion-panel-header>
-                            <mat-panel-title>{{item.ingredient}}</mat-panel-title>
-                            <mat-panel-description>{{item.preparation !== 'None' ? item.preparation : ''}}</mat-panel-description>
-                        </mat-expansion-panel-header>
-                        <div class="row">
-                            <div class="col-md-6">Amount: {{item.amount}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">Oil: {{item.oil}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">Temp: {{item.temperature}}&deg;F</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-5">Cook Time: {{item.cookTime}}</div>
-                        </div>
-                    </mat-expansion-panel>
-                    }
-                </mat-accordion>
-            </mat-card-content>
-        </mat-card>
-    </div>
+  <div class="col-md-6">
+    <mat-card class="ifry-card mat-mdc-elevation-specific mat-elevation-z10" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>Recipes</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <div class="col-md-8">
+            <mat-form-field style="width: 75%">
+              <mat-label>Filter</mat-label>
+              <input matInput type="text" [(ngModel)]="filter"/>
+            </mat-form-field>
+          </div>
+        </div>
+        <mat-accordion>
+          @for (item of data | cooking:filter; track item.id) {
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>{{ item.ingredient }}</mat-panel-title>
+                <mat-panel-description>{{ item.preparation !== 'None' ? item.preparation : '' }}</mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="row">
+                <div class="col-md-6">Amount: {{ item.amount }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">Oil: {{ item.oil }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">Temp: {{ item.temperature }}&deg;F</div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">Cook Time: {{ item.cookTime }}</div>
+              </div>
+            </mat-expansion-panel>
+          }
+        </mat-accordion>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>
