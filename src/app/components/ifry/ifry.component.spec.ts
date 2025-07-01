@@ -7,6 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import {provideRouter, RouterModule} from '@angular/router';
+import {IFryStore} from "../../stores/IfryStore";
 
 
 describe('IfryComponent', () => {
@@ -24,7 +25,10 @@ describe('IfryComponent', () => {
         FormsModule,
         RouterModule
       ],
-      providers: [provideRouter([])]
+      providers: [
+        provideRouter([]),
+        IFryStore
+      ]
     })
     .compileComponents();
 
