@@ -11,15 +11,8 @@ import {IFryStore} from "../../stores/IfryStore";
 })
 export class IfryComponent {
 
-  public temp: number = 0;
-  public time: number = 0;
-  public calculation: FryCalculation = new FryCalculation(0, 0);
   public store = inject(IFryStore);
   constructor(private service: IfryService) { }
-
-  public calculate(): void {
-    this.calculation = this.service.calculate(this.temp, this.time);
-  }
 
   public updateTemp(temp: number): void {
     this.store.updateTemp(temp);
