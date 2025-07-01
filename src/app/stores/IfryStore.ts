@@ -3,35 +3,39 @@ import {IfryService} from "../services/ifry.service";
 import {inject} from "@angular/core";
 
 type IFryType = {
-  temp: number;
-  time: number;
+  inputTemp: number;
+  inputTime: number;
+  outputTemp: number;
+  outputTime: number;
 }
 
 export const IFryInitialState: IFryType = {
-  temp: 0,
-  time: 0
+  inputTemp: 0,
+  inputTime: 0,
+  outputTemp: 0,
+  outputTime: 0
 }
 
 export const IFryStore = signalStore(
   withState<IFryType>(IFryInitialState),
   withMethods((store, service = inject(IfryService)) => ({
     updateTemp(temp: number): void {
-      if(temp > 0) {
-        patchState(store, {temp: temp});
+      if(temp >= 0) {
+        patchState(store, {inputTemp: temp});
       }
-      this.calculate(store.temp(), store.time());
+      this.calculate(store.inputTemp(), store.inputTime());
     },
     updateTime(time: number): void {
-      if(time > 0) {
-        patchState(store, {time: time});
+      if(time >= 0) {
+        patchState(store, {inputTime: time});
       }
-      this.calculate(store.temp(), store.time());
+      this.calculate(store.inputTemp(), store.inputTime());
     },
     calculate(temp: number, time: number): void {
       let result = service.calculate(temp, time);
 
-      if(result.Temp > 0 && result.Time > 0) {
-        patchState(store, {temp: result.Temp, time: result.Time});
+      if(result.Temp >= 0 || result.Time >= 0) {
+        patchState(store, {outputTemp: result.Temp, outputTime: result.Time});
       }
     }
   }))

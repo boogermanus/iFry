@@ -20,4 +20,11 @@ export class IfryComponent {
   public calculate(): void {
     this.calculation = this.service.calculate(this.temp, this.time);
   }
+
+  public updateTemp(temp: number): void {
+    this.store.updateTemp(temp);
+  }
+  public updateTime(time: number): void {
+    this.store.updateTime(time);
+  }
 }
