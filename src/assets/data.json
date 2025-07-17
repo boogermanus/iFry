@@ -558,5 +558,15 @@
     "oil": "None",
     "temperature": "390",
     "cookTime": "10-12 Minutes"
+  },
+  {
+    "id": 58,
+    "category": "Beef",
+    "ingredient": "Hot Dogs",
+    "amount": "4",
+    "preparation": "None",
+    "oil": "None",
+    "temperature": "400",
+    "cookTime": "4-6 Minutes"
   }
 ]
